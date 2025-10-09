@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/QrGeneratoricon.png" />
+  </head>
+  <body>
+    <nav>
+      <div class="leftSection">
+        <img src="images/QrGeneratoricon.png" alt="Qr Generator Logo" />
+      </div>
+      <div class="middleSection">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">about</a></li>
+        </ul>
+      </div>
+      <div class="rightSection">
+        <button>Signup</button>
+        <button>Login</button>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="header">
+          <h1><span>Scan</span> Generator</h1>
+          <p>Convert any URL into a scannable QR code.</p>
+        </div>
+        <div class="inputs">
+          <form>
+          <label for="url">Enter Text or URL:</label>
+          <input type="text" id="url" placeholder="eg: https://www.google.com" required />
+          </form>
+        </div>
+        <div class="qr">
+          <img id="qrImage" src="" alt="">
+        </div>
+        <div class="btn">
+          <button type="submit" onclick="generateQR()" >Generate QR Code</button>
+        </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
