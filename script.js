@@ -13,3 +13,12 @@ function generateQR() {
     }, 1000);
   }
 }
+
+const togglebarsEL = document.querySelector(".toggle-bars");
+const navEL = document.querySelector(".nav");
+console.log(navEL);
+
+togglebarsEL.addEventListener("click", () => {
+  togglebarsEL.classList.toggle("active");
+  navEL.classList.toggle("active");
+});
