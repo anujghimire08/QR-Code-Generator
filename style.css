@@ -220,41 +220,14 @@ footer a:hover {
 
 @media screen and (max-width: 800px) {
   nav {
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
-    right: 0;
-    left: 0;
-    padding-top: 60vw;
-    background-color: #073461;
-    padding-bottom: 3vw;
-    display: none;
-  }
-  nav.active {
-    display: flex;
-  }
-  .btns {
-    display: none;
-  }
-  .toggle-bars {
-    display: block;
-    z-index: 100;
-    padding-right: 3vw;
-  }
-  .toggle-bars.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .toggle-bars.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  .toggle-bars.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    gap: 6px;
+    font-size: 10px;
   }
   header img {
     width: 40px;
   }
   nav a {
-    font-size: 10px;
+    font-size: 15px;
   }
   header .rightSection button {
     display: none;
@@ -273,6 +246,6 @@ footer a:hover {
   }
   footer p,
   a {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
