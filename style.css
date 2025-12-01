@@ -230,6 +230,9 @@ footer a:hover {
     background-color: #073461;
     padding-bottom: 3vw;
     display: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
   }
   nav.active {
     display: flex;
@@ -255,7 +258,7 @@ footer a:hover {
     width: 40px;
   }
   nav a {
-    font-size: 10px;
+    font-size: 4vw;
   }
   header .rightSection button {
     display: none;
@@ -274,6 +277,6 @@ footer a:hover {
   }
   footer p,
   a {
-    font-size: 8px;
+    font-size: 3vw;
   }
 }
