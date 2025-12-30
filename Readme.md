@@ -18,9 +18,9 @@ Here’s how your QR Generator looks:
 
 
 
-# QR Code Generator Website
+<!-- # QR Code Generator Website
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://anujghimire08.github.io/QR-Code-Generator/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://anujghimire08.github.io/QR-Code-Generator/) -->
 
 
 
